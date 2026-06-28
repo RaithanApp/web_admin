@@ -1,0 +1,277 @@
+{
+  "users": [
+    {
+      "email": "sandeep__test__@example.com",
+      "role": "provider",
+      "provider_profile": {
+        "first_name": "Sandeep__test__",
+        "last_name": "Goud__test__",
+        "year_of_birth": 1982,
+        "gender": "Male",
+        "profile_image_url": "https://i.pravatar.cc/300?img=67",
+        "status": "verified"
+      },
+      "business": {
+        "business_name": "Sandeep__test__ Harvesting Services",
+        "business_type": "equipment",
+        "pincode": "509001",
+        "block_number": "32",
+        "street": "Station Road",
+        "area": "Old Market",
+        "landmark": "Near Railway Station",
+        "city": "Mahbubnagar",
+        "state": "Telangana",
+        "mobile_number": "9101112233",
+        "working_days": {
+          "Monday": true,
+          "Tuesday": true,
+          "Wednesday": true,
+          "Thursday": true,
+          "Friday": true,
+          "Saturday": true,
+          "Sunday": false
+        },
+        "working_time": {
+          "start": "07:00 AM",
+          "end": "07:00 PM"
+        },
+        "categories": [
+          "harvesting",
+          "combine"
+        ],
+        "location": {
+          "longitude": 78.0011,
+          "latitude": 16.7488
+        }
+      },
+      "products": [
+        {
+          "product_type": "Harvestors",
+          "hp": "120",
+          "model_no": "HARV-1200-TEST",
+          "type": "Combine Harvester__test__",
+          "ready_to_travel": true,
+          "is_individual": true,
+          "number_of_workers": 2,
+          "services": [
+            "Paddy Harvesting",
+            "Maize Harvesting"
+          ],
+          "image_front": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+          "image_back": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+          "image_left": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+          "image_right": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+          "doc_driving_license": null,
+          "doc_rc_book": null,
+          "doc_bill": null,
+          "doc_e_shram_card": null,
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "email": "pooja__test__@example.com",
+      "role": "provider",
+      "provider_profile": {
+        "first_name": "Pooja__test__",
+        "last_name": "Reddy__test__",
+        "year_of_birth": 1995,
+        "gender": "Female",
+        "profile_image_url": "https://i.pravatar.cc/300?img=41",
+        "status": "verified"
+      },
+      "business": {
+        "business_name": "Pooja__test__ Technician Services",
+        "business_type": "service",
+        "pincode": "533001",
+        "block_number": "4A",
+        "street": "Temple Road",
+        "area": "Bhanugudi",
+        "landmark": "Near Cinema Hall",
+        "city": "Kakinada",
+        "state": "Andhra Pradesh",
+        "mobile_number": "9102223344",
+        "working_days": {
+          "Monday": true,
+          "Tuesday": true,
+          "Wednesday": true,
+          "Thursday": true,
+          "Friday": true,
+          "Saturday": true,
+          "Sunday": false
+        },
+        "working_time": {
+          "start": "09:00 AM",
+          "end": "06:00 PM"
+        },
+        "categories": [
+          "technician",
+          "electrical"
+        ],
+        "location": {
+          "longitude": 82.2475,
+          "latitude": 16.9891
+        }
+      },
+      "products": [
+        {
+          "product_type": "Technician",
+          "hp": null,
+          "model_no": "TECH-550-TEST",
+          "type": "Electrical Technician__test__",
+          "ready_to_travel": true,
+          "is_individual": true,
+          "number_of_workers": 1,
+          "services": [
+            "Motor Repair",
+            "Pump Installation",
+            "Electrical Wiring"
+          ],
+          "image_front": "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
+          "image_back": "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
+          "image_left": "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
+          "image_right": "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
+          "doc_driving_license": null,
+          "doc_rc_book": null,
+          "doc_bill": null,
+          "doc_e_shram_card": null,
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "email": "mohan__test__@example.com",
+      "role": "provider",
+      "provider_profile": {
+        "first_name": "Mohan__test__",
+        "last_name": "Naidu__test__",
+        "year_of_birth": 1989,
+        "gender": "Male",
+        "profile_image_url": "https://i.pravatar.cc/300?img=9",
+        "status": "verified"
+      },
+      "business": {
+        "business_name": "Mohan__test__ Implement Rentals",
+        "business_type": "equipment",
+        "pincode": "516001",
+        "block_number": "27",
+        "street": "Bypass Road",
+        "area": "NGO Colony",
+        "landmark": "Near Water Tank",
+        "city": "Kadapa",
+        "state": "Andhra Pradesh",
+        "mobile_number": "9103334455",
+        "working_days": {
+          "Monday": true,
+          "Tuesday": true,
+          "Wednesday": true,
+          "Thursday": true,
+          "Friday": true,
+          "Saturday": true,
+          "Sunday": true
+        },
+        "working_time": {
+          "start": "08:00 AM",
+          "end": "06:00 PM"
+        },
+        "categories": [
+          "implements"
+        ],
+        "location": {
+          "longitude": 78.8242,
+          "latitude": 14.4673
+        }
+      },
+      "products": [
+        {
+          "product_type": "Implements",
+          "hp": null,
+          "model_no": "CULT-200-TEST",
+          "type": "Cultivator__test__",
+          "ready_to_travel": true,
+          "is_individual": false,
+          "number_of_workers": 2,
+          "services": [
+            "Cultivation",
+            "Soil Preparation"
+          ],
+          "image_front": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854",
+          "image_back": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854",
+          "image_left": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854",
+          "image_right": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854",
+          "doc_driving_license": null,
+          "doc_rc_book": null,
+          "doc_bill": null,
+          "doc_e_shram_card": null,
+          "verification_status": "verified"
+        }
+      ]
+    }
+  ],
+  "seekers": [
+    {
+      "phone_number": "8661000001",
+      "location": {
+        "longitude": 78.00,
+        "latitude": 16.75
+      }
+    },
+    {
+      "phone_number": "8661000002",
+      "location": {
+        "longitude": 82.25,
+        "latitude": 16.99
+      }
+    },
+    {
+      "phone_number": "8661000003",
+      "location": {
+        "longitude": 78.82,
+        "latitude": 14.47
+      }
+    }
+  ],
+  "ratings": [
+    {
+      "user_email": "sandeep__test__@example.com",
+      "product_index": 0,
+      "seeker_index": 0,
+      "rating": 5
+    },
+    {
+      "user_email": "pooja__test__@example.com",
+      "product_index": 0,
+      "seeker_index": 1,
+      "rating": 5
+    },
+    {
+      "user_email": "mohan__test__@example.com",
+      "product_index": 0,
+      "seeker_index": 2,
+      "rating": 4
+    }
+  ],
+  "call_history": [
+    {
+      "user_email": "sandeep__test__@example.com",
+      "seeker_index": 0,
+      "product_index": 0,
+      "seeker_phone": "8661000001",
+      "provider_phone": "9101112233"
+    },
+    {
+      "user_email": "pooja__test__@example.com",
+      "seeker_index": 1,
+      "product_index": 0,
+      "seeker_phone": "8661000002",
+      "provider_phone": "9102223344"
+    },
+    {
+      "user_email": "mohan__test__@example.com",
+      "seeker_index": 2,
+      "product_index": 0,
+      "seeker_phone": "8661000003",
+      "provider_phone": "9103334455"
+    }
+  ]
+}
