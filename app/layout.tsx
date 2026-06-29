@@ -21,9 +21,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       const isLoggedIn = !!session;
       setAuthenticated(isLoggedIn);
 
-      if (!isLoggedIn) {
+      if (!isLoggedIn && pathname !== '/login') {
         router.push('/login');
-      } else if (pathname === '/login') {
+      }
+
+      if (isLoggedIn && pathname !== '/categories') {
         router.push('/categories');
       }
     };
