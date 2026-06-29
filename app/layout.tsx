@@ -12,37 +12,38 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const [authenticated, setAuthenticated] = useState<boolean | null>(null);
 
   useEffect(() => {
+    let mounted = true;
+
     const checkAuth = async () => {
-      // Looks directly at localStorage automatically
       const { data: { session } } = await supabase.auth.getSession();
+      if (!mounted) return;
+
       const isLoggedIn = !!session;
       setAuthenticated(isLoggedIn);
 
-      // Client-side redirection replacement for middleware
-      if (!isLoggedIn && pathname !== '/login') {
+      if (!isLoggedIn) {
         router.push('/login');
-      } else if (isLoggedIn && pathname === '/login') {
-        router.push('/');
+      } else if (pathname === '/login') {
+        router.push('/categories');
       }
     };
 
     checkAuth();
 
-    // Listen for client login/logout events
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
-      const isLoggedIn = !!session;
-      setAuthenticated(isLoggedIn);
-      
-      if (!isLoggedIn && pathname !== '/login') {
-        router.push('/login');
-      }
-    });
+    const { data: { subscription } } =
+      supabase.auth.onAuthStateChange((_event, session) => {
+        const isLoggedIn = !!session;
+        setAuthenticated(isLoggedIn);
+      });
 
-    return () => subscription.unsubscribe();
+    return () => {
+      mounted = false;
+      subscription.unsubscribe();
+    };
   }, [pathname, router]);
 
   // Prevent admin dashboard flickering during the localStorage lookup
-  if (authenticated === null && pathname !== '/login') {
+  if (authenticated === null ) {
     return (
       <html lang="en">
         <body className="bg-gray-50 flex items-center justify-center min-h-screen font-sans">

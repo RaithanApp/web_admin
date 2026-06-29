@@ -1,27 +1,27 @@
 {
   "users": [
     {
-      "email": "sandeep__test__@example.com",
+      "email": "ajay__test__@example.com",
       "role": "provider",
       "provider_profile": {
-        "first_name": "Sandeep__test__",
-        "last_name": "Goud__test__",
-        "year_of_birth": 1982,
+        "first_name": "Ajay__test__",
+        "last_name": "Reddy__test__",
+        "year_of_birth": 1981,
         "gender": "Male",
-        "profile_image_url": "https://i.pravatar.cc/300?img=67",
+        "profile_image_url": "https://i.pravatar.cc/300?img=3",
         "status": "verified"
       },
       "business": {
-        "business_name": "Sandeep__test__ Harvesting Services",
+        "business_name": "Ajay__test__ Implements",
         "business_type": "equipment",
-        "pincode": "509001",
-        "block_number": "32",
-        "street": "Station Road",
-        "area": "Old Market",
-        "landmark": "Near Railway Station",
-        "city": "Mahbubnagar",
+        "pincode": "506001",
+        "block_number": "18A",
+        "street": "Main Road",
+        "area": "Hanamkonda",
+        "landmark": "Near Market",
+        "city": "Warangal",
         "state": "Telangana",
-        "mobile_number": "9101112233",
+        "mobile_number": "9551111111",
         "working_days": {
           "Monday": true,
           "Tuesday": true,
@@ -32,30 +32,28 @@
           "Sunday": false
         },
         "working_time": {
-          "start": "07:00 AM",
-          "end": "07:00 PM"
+          "start": "08:00 AM",
+          "end": "06:00 PM"
         },
         "categories": [
-          "harvesting",
-          "combine"
+          "implements"
         ],
         "location": {
-          "longitude": 78.0011,
-          "latitude": 16.7488
+          "longitude": 79.5941,
+          "latitude": 17.9689
         }
       },
       "products": [
         {
-          "product_type": "Harvestors",
-          "hp": "120",
-          "model_no": "HARV-1200-TEST",
-          "type": "Combine Harvester__test__",
+          "product_type": "Implements",
+          "hp": null,
+          "model_no": "IMP-101-TEST",
+          "type": "Rotavator__test__",
           "ready_to_travel": true,
           "is_individual": true,
-          "number_of_workers": 2,
+          "number_of_workers": 1,
           "services": [
-            "Paddy Harvesting",
-            "Maize Harvesting"
+            "Rotavation"
           ],
           "image_front": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
           "image_back": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
@@ -70,27 +68,96 @@
       ]
     },
     {
-      "email": "pooja__test__@example.com",
+      "email": "keerthi__test__@example.com",
       "role": "provider",
       "provider_profile": {
-        "first_name": "Pooja__test__",
-        "last_name": "Reddy__test__",
-        "year_of_birth": 1995,
+        "first_name": "Keerthi__test__",
+        "last_name": "Sharma__test__",
+        "year_of_birth": 1994,
         "gender": "Female",
-        "profile_image_url": "https://i.pravatar.cc/300?img=41",
+        "profile_image_url": "https://i.pravatar.cc/300?img=54",
         "status": "verified"
       },
       "business": {
-        "business_name": "Pooja__test__ Technician Services",
-        "business_type": "service",
-        "pincode": "533001",
-        "block_number": "4A",
-        "street": "Temple Road",
-        "area": "Bhanugudi",
-        "landmark": "Near Cinema Hall",
-        "city": "Kakinada",
+        "business_name": "Keerthi__test__ Drone Mapping",
+        "business_type": "equipment",
+        "pincode": "517501",
+        "block_number": "22",
+        "street": "Airport Road",
+        "area": "Renigunta",
+        "landmark": "Near Flyover",
+        "city": "Tirupati",
         "state": "Andhra Pradesh",
-        "mobile_number": "9102223344",
+        "mobile_number": "9552222222",
+        "working_days": {
+          "Monday": true,
+          "Tuesday": true,
+          "Wednesday": true,
+          "Thursday": true,
+          "Friday": true,
+          "Saturday": true,
+          "Sunday": false
+        },
+        "working_time": {
+          "start": "08:30 AM",
+          "end": "05:30 PM"
+        },
+        "categories": [
+          "drone",
+          "mapping"
+        ],
+        "location": {
+          "longitude": 79.4192,
+          "latitude": 13.6288
+        }
+      },
+      "products": [
+        {
+          "product_type": "Drones",
+          "hp": null,
+          "model_no": "MAP-900-TEST",
+          "type": "Survey Drone__test__",
+          "ready_to_travel": true,
+          "is_individual": true,
+          "number_of_workers": 1,
+          "services": [
+            "Crop Mapping",
+            "Survey"
+          ],
+          "image_front": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8",
+          "image_back": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8",
+          "image_left": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8",
+          "image_right": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8",
+          "doc_driving_license": null,
+          "doc_rc_book": null,
+          "doc_bill": null,
+          "doc_e_shram_card": null,
+          "verification_status": "verified"
+        }
+      ]
+    },
+    {
+      "email": "prakash__test__@example.com",
+      "role": "provider",
+      "provider_profile": {
+        "first_name": "Prakash__test__",
+        "last_name": "Yadav__test__",
+        "year_of_birth": 1986,
+        "gender": "Male",
+        "profile_image_url": "https://i.pravatar.cc/300?img=14",
+        "status": "verified"
+      },
+      "business": {
+        "business_name": "Prakash__test__ Farm Mechanics",
+        "business_type": "service",
+        "pincode": "505001",
+        "block_number": "12",
+        "street": "Collector Road",
+        "area": "Mukarampura",
+        "landmark": "Near Bus Stand",
+        "city": "Karimnagar",
+        "state": "Telangana",
+        "mobile_number": "9553333333",
         "working_days": {
           "Monday": true,
           "Tuesday": true,
@@ -105,27 +172,25 @@
           "end": "06:00 PM"
         },
         "categories": [
-          "technician",
-          "electrical"
+          "mechanic"
         ],
         "location": {
-          "longitude": 82.2475,
-          "latitude": 16.9891
+          "longitude": 79.1288,
+          "latitude": 18.4386
         }
       },
       "products": [
         {
-          "product_type": "Technician",
+          "product_type": "Mechanics",
           "hp": null,
-          "model_no": "TECH-550-TEST",
-          "type": "Electrical Technician__test__",
+          "model_no": "MECH-404-TEST",
+          "type": "Engine Mechanic__test__",
           "ready_to_travel": true,
           "is_individual": true,
           "number_of_workers": 1,
           "services": [
-            "Motor Repair",
-            "Pump Installation",
-            "Electrical Wiring"
+            "Engine Repair",
+            "Maintenance"
           ],
           "image_front": "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
           "image_back": "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
@@ -140,27 +205,27 @@
       ]
     },
     {
-      "email": "mohan__test__@example.com",
+      "email": "farooq__test__@example.com",
       "role": "provider",
       "provider_profile": {
-        "first_name": "Mohan__test__",
-        "last_name": "Naidu__test__",
-        "year_of_birth": 1989,
+        "first_name": "Farooq__test__",
+        "last_name": "Ali__test__",
+        "year_of_birth": 1991,
         "gender": "Male",
-        "profile_image_url": "https://i.pravatar.cc/300?img=9",
+        "profile_image_url": "https://i.pravatar.cc/300?img=61",
         "status": "verified"
       },
       "business": {
-        "business_name": "Mohan__test__ Implement Rentals",
-        "business_type": "equipment",
-        "pincode": "516001",
-        "block_number": "27",
-        "street": "Bypass Road",
-        "area": "NGO Colony",
-        "landmark": "Near Water Tank",
-        "city": "Kadapa",
+        "business_name": "Farooq__test__ Labour Services",
+        "business_type": "labour",
+        "pincode": "524001",
+        "block_number": "9",
+        "street": "Market Street",
+        "area": "Stonehousepet",
+        "landmark": "Near Mosque",
+        "city": "Nellore",
         "state": "Andhra Pradesh",
-        "mobile_number": "9103334455",
+        "mobile_number": "9554444444",
         "working_days": {
           "Monday": true,
           "Tuesday": true,
@@ -171,107 +236,43 @@
           "Sunday": true
         },
         "working_time": {
-          "start": "08:00 AM",
-          "end": "06:00 PM"
+          "start": "06:00 AM",
+          "end": "05:00 PM"
         },
         "categories": [
-          "implements"
+          "labour"
         ],
         "location": {
-          "longitude": 78.8242,
-          "latitude": 14.4673
+          "longitude": 79.9865,
+          "latitude": 14.4426
         }
       },
       "products": [
         {
-          "product_type": "Implements",
+          "product_type": "Agriculture Labor",
           "hp": null,
-          "model_no": "CULT-200-TEST",
-          "type": "Cultivator__test__",
+          "model_no": null,
+          "type": "Farm Workers__test__",
+          "e_shram_card_number": "ES998877665",
           "ready_to_travel": true,
           "is_individual": false,
-          "number_of_workers": 2,
+          "number_of_workers": 30,
           "services": [
-            "Cultivation",
-            "Soil Preparation"
+            "Harvesting",
+            "Planting",
+            "Weeding"
           ],
-          "image_front": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854",
-          "image_back": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854",
-          "image_left": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854",
-          "image_right": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854",
+          "image_front": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+          "image_back": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+          "image_left": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+          "image_right": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
           "doc_driving_license": null,
           "doc_rc_book": null,
           "doc_bill": null,
-          "doc_e_shram_card": null,
+          "doc_e_shram_card": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
           "verification_status": "verified"
         }
       ]
-    }
-  ],
-  "seekers": [
-    {
-      "phone_number": "8661000001",
-      "location": {
-        "longitude": 78.00,
-        "latitude": 16.75
-      }
-    },
-    {
-      "phone_number": "8661000002",
-      "location": {
-        "longitude": 82.25,
-        "latitude": 16.99
-      }
-    },
-    {
-      "phone_number": "8661000003",
-      "location": {
-        "longitude": 78.82,
-        "latitude": 14.47
-      }
-    }
-  ],
-  "ratings": [
-    {
-      "user_email": "sandeep__test__@example.com",
-      "product_index": 0,
-      "seeker_index": 0,
-      "rating": 5
-    },
-    {
-      "user_email": "pooja__test__@example.com",
-      "product_index": 0,
-      "seeker_index": 1,
-      "rating": 5
-    },
-    {
-      "user_email": "mohan__test__@example.com",
-      "product_index": 0,
-      "seeker_index": 2,
-      "rating": 4
-    }
-  ],
-  "call_history": [
-    {
-      "user_email": "sandeep__test__@example.com",
-      "seeker_index": 0,
-      "product_index": 0,
-      "seeker_phone": "8661000001",
-      "provider_phone": "9101112233"
-    },
-    {
-      "user_email": "pooja__test__@example.com",
-      "seeker_index": 1,
-      "product_index": 0,
-      "seeker_phone": "8661000002",
-      "provider_phone": "9102223344"
-    },
-    {
-      "user_email": "mohan__test__@example.com",
-      "seeker_index": 2,
-      "product_index": 0,
-      "seeker_phone": "8661000003",
-      "provider_phone": "9103334455"
     }
   ]
 }
