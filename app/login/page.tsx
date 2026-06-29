@@ -29,11 +29,11 @@ export default function LoginPage() {
         return;
       }
 
-      if (data?.user) {
-        // Successfully authenticated, route them into the app
-        router.push('/');
-        router.refresh();
-      }
+    if (data?.user) {
+      // Successfully authenticated, route them into the app
+      router.replace('/categories');
+      router.refresh();
+    }
     } catch (err) {
       setErrorMessage('An unexpected error occurred. Please try again.');
     } finally {
