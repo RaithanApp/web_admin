@@ -10,6 +10,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [showPrivacyModal, setShowPrivacyModal] = useState(false);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -120,15 +121,15 @@ export default function LoginPage() {
           </form>
 
           {/* Ancillary Footer Routing Block */}
-          <div className="mt-8 text-center flex items-center justify-center space-x-1.5 text-xs font-semibold text-gray-700">
-            <span>Forgot your password?</span>
-            <a 
-              href="/privacy-policy" 
-              className="text-[#2563eb] hover:underline cursor-pointer"
-            >
-              Privacy Policy
-            </a>
-          </div>
+=            <div className="mt-8 text-center text-xs font-semibold text-gray-700">
+              <button
+                type="button"
+                onClick={() => setShowPrivacyModal(true)}
+                className="text-[#2563eb] hover:underline"
+              >
+                Privacy Policy & Terms of Service
+              </button>
+            </div>
 
         </div>
       </div>
