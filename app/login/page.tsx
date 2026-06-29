@@ -133,6 +133,181 @@ export default function LoginPage() {
 
         </div>
       </div>
+      {showPrivacyModal && (
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4">
+    <div className="bg-white rounded-2xl shadow-xl w-full max-w-4xl max-h-[90vh] flex flex-col">
+
+      <div className="flex items-center justify-between border-b px-6 py-4">
+        <h2 className="text-xl font-bold">
+          Privacy Policy & Terms of Service
+        </h2>
+
+        <button
+          onClick={() => setShowPrivacyModal(false)}
+          className="text-gray-500 hover:text-black text-2xl leading-none"
+        >
+          ×
+        </button>
+      </div>
+
+      <div className="overflow-y-auto px-6 py-5 text-sm text-gray-700 space-y-6">
+
+        <div>
+          <h3 className="font-bold text-lg mb-2">Privacy Policy</h3>
+
+          <h4 className="font-semibold mt-4">1. Introduction</h4>
+          <p>
+            Welcome to Rathan. We are committed to protecting your personal
+            information and your right to privacy. This Privacy Policy outlines
+            how we collect, use, disclose, and safeguard your information when
+            you use our mobile application. By accessing or using the Rathan
+            app, you agree to this Privacy Policy.
+          </p>
+
+          <h4 className="font-semibold mt-4">2. Information We Collect</h4>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Contact Information (phone numbers)</li>
+            <li>Photos of products and services</li>
+            <li>Business licenses and certifications</li>
+            <li>Location data</li>
+          </ul>
+
+          <h4 className="font-semibold mt-4">3. How We Use Your Information</h4>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Provide and manage services</li>
+            <li>Facilitate communication between users</li>
+            <li>Verify identities and credentials</li>
+            <li>Improve user experience</li>
+            <li>Comply with legal obligations</li>
+          </ul>
+
+          <h4 className="font-semibold mt-4">4. Sharing Your Information</h4>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Other users to facilitate transactions</li>
+            <li>Third-party service providers</li>
+            <li>Legal authorities when required</li>
+          </ul>
+
+          <h4 className="font-semibold mt-4">5. Data Security</h4>
+          <p>
+            We implement appropriate technical and organizational safeguards to
+            protect your data. However, no system can guarantee absolute
+            security.
+          </p>
+
+          <h4 className="font-semibold mt-4">6. User Rights</h4>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Access your personal data</li>
+            <li>Correct inaccurate information</li>
+            <li>Request deletion</li>
+            <li>Restrict or object to processing</li>
+            <li>Withdraw consent</li>
+          </ul>
+
+          <h4 className="font-semibold mt-4">7. Grievance Redressal</h4>
+          <p>
+            Rathan Support Team
+            <br />
+            support@rathan.com
+            <br />
+            Address: Your Business Address
+          </p>
+
+          <h4 className="font-semibold mt-4">8. Changes to this Policy</h4>
+          <p>
+            We may update this Privacy Policy from time to time. Continued use
+            of the application indicates acceptance of the revised policy.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="font-bold text-lg mb-2">
+            Terms and Conditions
+          </h3>
+
+          <h4 className="font-semibold mt-4">1. Acceptance of Terms</h4>
+          <p>
+            By downloading, accessing, or using Rathan, you agree to these
+            Terms and Conditions.
+          </p>
+
+          <h4 className="font-semibold mt-4">2. User Accounts</h4>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>Provide accurate registration information.</li>
+            <li>Keep your credentials secure.</li>
+            <li>You are responsible for your account.</li>
+          </ul>
+
+          <h4 className="font-semibold mt-4">3. User Conduct</h4>
+          <ul className="list-disc pl-6 space-y-1">
+            <li>No unlawful use.</li>
+            <li>No offensive or infringing content.</li>
+            <li>Do not interfere with the app.</li>
+          </ul>
+
+          <h4 className="font-semibold mt-4">
+            4. Service Providers & Seekers
+          </h4>
+          <p>
+            Rathan only provides a platform connecting users. We do not
+            guarantee the quality or legality of services and are not liable
+            for disputes between users.
+          </p>
+
+          <h4 className="font-semibold mt-4">
+            5. Intellectual Property
+          </h4>
+          <p>
+            All content within the application belongs to Rathan and is
+            protected by intellectual property laws.
+          </p>
+
+          <h4 className="font-semibold mt-4">6. Termination</h4>
+          <p>
+            We may suspend or terminate accounts that violate these terms.
+          </p>
+
+          <h4 className="font-semibold mt-4">7. Limitation of Liability</h4>
+          <p>
+            Rathan shall not be liable for indirect or consequential damages.
+            Total liability is limited to the amount paid, if any, for use of
+            the application.
+          </p>
+
+          <h4 className="font-semibold mt-4">
+            8. Governing Law & Jurisdiction
+          </h4>
+          <p>
+            These terms are governed by the laws of India. Disputes are subject
+            to the exclusive jurisdiction of the courts in Hyderabad,
+            Telangana.
+          </p>
+
+          <h4 className="font-semibold mt-4">9. Changes to Terms</h4>
+          <p>
+            We may update these Terms from time to time. Continued use of the
+            application constitutes acceptance of the revised Terms.
+          </p>
+
+          <p className="mt-6 font-semibold">
+            Last Updated: September 5, 2023
+          </p>
+        </div>
+
+      </div>
+
+      <div className="border-t p-4 flex justify-end">
+        <button
+          onClick={() => setShowPrivacyModal(false)}
+          className="bg-[#52b100] hover:bg-[#469600] text-white px-6 py-2 rounded-lg font-semibold"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+)}
     </div>
   );
 }
+
